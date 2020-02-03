@@ -8,16 +8,17 @@ for i in range(len(arr)):
 
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
-result = 0
+
 result_list = []
 # 7 : [1, 1]
 # 2: [ 0,1], 6:[1, 0], 8 [1, 2], 12 : [2, 1]
 print(arr)
 for x in range(len(arr)):
     for y in range(len(arr[0])):
+        result = 0
         for i in range(4):
             temp_x = x + dx[i]
             temp_y = y + dy[i]
-            if temp_x >= 0 and temp_y >= 0:
+            if 0 <= temp_x < 5 and 0 <= temp_y < 5:
                 result += abs(arr[temp_x][temp_y]-arr[x][y])
         result_list.append(result)
