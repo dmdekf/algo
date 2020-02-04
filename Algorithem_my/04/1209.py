@@ -11,14 +11,13 @@ for _ in range(T):
     result.append(diagonal_1)
     result.append(diagonal_2)
 
-    row_temp = 0
-    col_temp = 0
     for i in range(len(arr)):
+        row_temp = 0
+        col_temp = 0
         for j in range(len(arr)):
             row_temp += arr[i][j]
             col_temp += arr[j][i]
         result.append(row_temp)
         result.append(col_temp)
-        row_temp = 0
-        col_temp = 0
-    print('#{} {}'.format(n, len(result)))
+      
+    print('#{} {}'.format(n, max(result)))

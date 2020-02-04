@@ -14,7 +14,7 @@ for tc in range(1, T+1):
     for i in range(N//2):
         result.append(d[-1-i])
         result.append(d[i])
-    
+
     # result = print(*result)
     
     print('#{}'.format(tc),end=' ')
