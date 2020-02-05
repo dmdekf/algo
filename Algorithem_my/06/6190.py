@@ -1,37 +1,33 @@
-
-# 1
-# 4
-# 2 4 7 10	// 테스트케이스 개수, T=1
-# // N=4
-# // A1=2, A2=4, A3=7, A4=10
-
-# #1 28
+def inc(num):
+    if num < 10:
+        return True
+    else:
+        while num:
+            y = num % 10
+            num = num//10
+            if y < num %10:
+                return False
+        return True
 
 T = int(input())
 for tc in range(1, T+1):
     N = int(input())
-    d = list(map(str, input().split()))
-    temp = []
-    check = False
-    for i in d:
-        if len(i) > 1 :
-            for j in range(len(i)-1):
-                if i[j] <= i[j+1]:
-                    check = True
-                else:
-                    check = False
-                    break
-            if check:
-                temp.append(i)
-        else:
-            temp.append(i)
-    result = []
-    for k in temp:
-        result.append(int(k))
+    d = list(map(int, input().split()))
     
-    if temp == []:
-        big = -1
+    mymax = -987654321
+    chk = False
+    for i in range(N):
+        for j in range(i+1,N):
+            temp = d[i]*d[j]
+            if inc(temp):
+                chk = True
+                if mymax < temp:
+                    mymax = temp
+    if chk:
+        print('#{} {}'.format(tc, mymax))
     else:
-        big=sorted(result)[-1] * sorted(result)[-2]
-    
-    print('#{} {}'.format(tc, big))
+        print('#{} -1'.format(tc))
+            
+            
+
+        

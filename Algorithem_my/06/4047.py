@@ -21,17 +21,17 @@ for tc in range(1, T+1):
         if d[i:i+3] in d[i+3:]:
             result = 'ERROR'
             break
-        else:
-            for i in d[::3]:
-                if i == 'S':
-                    S -=1
-                if i == 'D':
-                    D -=1
-                if i == 'H':
-                    H -=1
-                if i == 'C':
-                    C -=1
-            result = '{} {} {} {}'.format(S, D, H, C)
-            break    
+    if result !='ERROR':
+        for i in d[::3]:
+            if i == 'S':
+                S -=1
+            elif i == 'D':
+                D -=1
+            elif i == 'H':
+                H -=1
+            elif i == 'C':
+                C -=1
+        result = '{} {} {} {}'.format(S, D, H, C)
+        
 
     print('#{} {}'.format(tc, result))
