@@ -1,22 +1,18 @@
 import sys
 sys.stdin = open("input.txt")
-def sub(n, subset):
-    if n < 1:
-        return subset
-    else:
-        subsets.append(sub(n-1, subset+[n]))
-        subsets.append(sub(n-1, subset))
+from itertools import combinations
+
 T = int(input())
-for case in range(1,T+1):
-    N, K = map(int,input().split())
-    n = 12
-    count = 0
-    subsets = []
-    s = []
-    sub(n,s)
-    for i in subsets:
-        if i:
-            if len(i) == N:
-                if sum(i) == K:
-                    count += 1
-    print('#{} {}'.format(case, count))
+for tc in range(1, T+1):
+    N, K = map(int, input().split())
+    # 12까지의 원소 중  N개가 포함된 부분집합 
+    subsets = combinations(range(1,13), N)
+    
+    # cnt = 0
+
+    # for i in subsets:
+    #     if sum(i) == K:
+    #         cnt +=1 
+
+    cnt = sum(1 for i in subsets if sum(i) == K)
+    print('#{} {}'.format(tc, cnt))

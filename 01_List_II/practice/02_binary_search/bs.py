@@ -1,7 +1,3 @@
-import sys
-
-sys.stdin = open('input.txt')
-
 def find(total, target):
     cnt = 1
     start = 1
@@ -22,18 +18,4 @@ def find(total, target):
 
     return cnt
 
-T = int(input())
-for tc in range(1, T+1):
-    #P: 전체페이지  A, B : 찾아야 할 페이지
-    P, A, B = map(int, input().split())
-    a = find(P, A)
-    b = find(P, B)
-    result = '0'
-    if a > b:
-        result = 'B'
-    elif a < b:
-        result = 'A'    
-        
-    print('#{} {}'.format(tc, result))
-    
-
+print(find(10,3))

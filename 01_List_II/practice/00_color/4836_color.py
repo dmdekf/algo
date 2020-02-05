@@ -2,29 +2,27 @@ import sys
 
 sys.stdin = open('input.txt')
 
+# 1. 10 x 10  격자를 생성
+# 2. input으로 주어진 조건에 따라 색칠
+# - 왼쪽 상단 인덱스 & 오른쪽 하단 인덱스
+# 3. 겹쳐진 구간의 개수 출력(cnt)
+
 T = int(input())
 for tc in range(1, T+1):
-    default = [[0]*10 for _ in range(10)]
     N = int(input())
-    d = [list(map(int, input().split())) for _ in range(N)]
+    cnt = 0
+    #이중배열 초기화. [[0]*n]*n은 쓰지 않기. 값이 변하면 모두 복제됨.
+    # 같은 색이 중복으로 될 경우 set으로 접근해보기.
+    tile = [[0]*10 for _ in range(10)]
 
-    for i in range(N):
-        if d[i][4] == 1:
-            for x in range(d[i][2]-d[i][0]+1): # 0,2 -0, 0
-                for y in range(d[i][3]-d[i][1]+1): # 0,3 - 0,1
-                    default[d[i][0]+x][d[i][1]+y] +=1 # 0,0 + 0 0,1 + 0
-                # 01 01
-                # 2 2
-
-        else:
-            for x in range(d[i][2]-d[i][0]+1):
-                for y in range(d[i][3]-d[i][1]+1):
-                    default[d[i][0]+x][d[i][1]+y] +=2
-    s = 0
-    for i in range(10):
-        for j in range(10):
-            if default[i][j] == 3:
-                s +=1
-            
-    # print(default)
-    print('#{} {}'.format(tc, s))
+    for _ in range(N):
+        r1, c1, r2, c2, color = map(int, input().split())
+        #x축의 범위
+        for i in range(r1, r2+1):
+            #y축의 범위
+            for j in range(c1, c2+1):
+                tile[i][j] += color 
+                if tile[i][j] == 3:
+                    cnt +=1
+    
+    print('#{} {}'.format(tc, cnt))
