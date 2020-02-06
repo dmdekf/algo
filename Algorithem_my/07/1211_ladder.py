@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt')
+sys.stdin = open('input copy.txt')
 
 
 T = 10
@@ -17,7 +17,6 @@ for _ in range(T):
         temp = 0
 
         if d[r][c]:
-            ch.append(c)
             while r != 99:
                 if c != 99 and d[r][c+1]:
                     while c < 99 and d[r][c+1]:
@@ -32,4 +31,5 @@ for _ in range(T):
             if cnt > temp:
                 cnt = temp
                 result = i
-    print('#{} {}'.format(tx, result))
+
+    print('#{} {} {}'.format(tx, result, cnt))
