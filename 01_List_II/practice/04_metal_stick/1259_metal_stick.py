@@ -23,7 +23,6 @@ for tc in range( 1, T+1):
             if pipes[i][-1] == connected[0]:
                 connected = pipes.pop(i) + connected
                 break
-    
-    map(str, connected)
+    print(connected)
     print('#{} {}'.format(tc, ' '.join(map(str, connected))))
 
