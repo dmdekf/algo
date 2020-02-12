@@ -15,9 +15,7 @@ for tc in range(1, T+1):
                     d[i+1][j] = d[i][j]
                     d[i][j] = 0
                     i += 1
-                if i != 99 and d[i][j] == 1 and d[i+1][j] + d[i][j] == 3:
+                if i != 99  and d[i+1][j] + d[i][j] == 3:
                     cnt += 1
-        d[i+1][j], d[i][j] = 4, 4
-print('#{} {}'.format(tc, cnt))
-
-d.max()
+                    d[i+1][j], d[i][j] = 4, 4
+    print('#{} {}'.format(tc, cnt))
