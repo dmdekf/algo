@@ -1,3 +1,6 @@
+import sys
+
+
 def DFS(v):
     visited[v] = 1
     print(v, end=' ')
@@ -7,10 +10,9 @@ def DFS(v):
             DFS(w)
 
 
-import sys
 sys.stdin = open('input.txt')
 
-V , E = map(int, input().split())
+V, E = map(int, input().split())
 
 G = [[] for _ in range(V+1)]
 visited = [0 for _ in range(V+1)]

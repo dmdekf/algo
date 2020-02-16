@@ -13,52 +13,36 @@ import sys
 sys.stdin= open('input.txt')
 V , Edge = map(int,input().split())
 #인접리스트
-M = [[]*V for _ in range(V)]
+M = [[] for _ in range(V+1)]
 stack = []
 #방문리스트
-visited = [False]*V
+visited = [False for _ in range(V+1)]
 for _ in range(Edge):
     f, t = map(int, input().split())
-    M[f-1].append(t-1)
-
-# stack.append(0)
-# visited[0]= True
-# A, B = M[0]
-result = 1000
-
-for i in range(len(M)):
-    cnt = 0
-    stack.append(i)
-    visited[i]= True
-    while stack:
-        print(stack)
-        for j in range(len(M[i])):
-            if visited[M[i][j]]:
-                continue
-            elif not visited[M[i][j]]:                
-                visited[M[i][j]] = True
-                stack.append(M[i][j])
-                cnt +=1
-                i = stack[-1]
-            elif not M[i]:
-                stack.pop(i)
-                i = stack[-1]
-        if result > cnt:
-            result = cnt
-        if len(stack)==V and cnt<result:
-            slist = stack
-            # stack.pop(i)
-print(slist, result)
-
-
+    M[f].append(t)
+print('M',M)
+print('V',visited)
+cnt = 0
+stack.append(i)
+visited[i]= True
+while stack:
+    print(stack)
+    for j in M[i]:
+        if visited[j]:
+            continue
+        elif not visited[j]:                
+            visited[j] = True
+            stack.append(j)
+            cnt +=1
+            
+        elif not M[i]:
+            stack.pop(i)
+            i = stack[-1]
         # if result > cnt:
         #     result = cnt
-
-        
-
-
-
-    
+        # if len(stack)==V and cnt<result:
+        #     slist = stack
+        #     # stack.pop(i)
         
 print('V',visited)
 print('M',M)
