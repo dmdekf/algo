@@ -1,46 +1,24 @@
 import sys
+
+
+def dfs(graph, v):
+    visit = list()
+    needvisit = list()
+    needvisit.append(v)
+    while needvisit:
+        node = needvisit.pop(0)
+        if node not in visit:
+            visit.append(node)
+            needvisit.extend(graph[node])
+    return visit
+
+
 sys.stdin = open('input.txt')
 
-T = 10
-# 3 2
-# 2 1 1 3
-for tc in range(1, 11):
+for tc in range(1, 4):
     N, M = map(int, input().split())
     d = list(map(int, input().split()))
-    dd = []
-    for j in range(0, len(d), 2):
-        dd.append([d[j], d[j + 1]])
-    # print(dd)
-    result = dd.pop()
-    while len(result) != N:
-        for i in range(len(dd)):
-            if result[-1] == dd[i][0]:
-                result.append(dd[i][1])
-                dd.pop(i)
-                break
-            elif result[0] == dd[i][1]:
-                result.insert(0, dd[i][0])
-                dd.pop(i)
-                break
-            elif dd[i][0] in result:
-                result.append(dd[i][1])
-                dd.pop(i)
-                break
-            elif dd[i][1] in result:
-                result.insert(0, dd[i][0])
-                dd.pop(i)
-                break
-
-    print('#{} '.format(tc), end='')
-    print(*result)
-
-
-
-
-
-
-
-
-
-
-
+    G = list([] for _ in range(max(d)+1))
+    for i in range(0, M*2, 2):
+        G[i].append(d[i+1])
+    print(G)
