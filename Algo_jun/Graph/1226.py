@@ -15,7 +15,7 @@ def dfs2(i, j):
     s = []
     v = [[0]*16 for _ in range(16)]
     s.append((i,j)) #시작점
-    v[i][j] == 1
+    v[i][j] = 1
     while s:
         i, j = s.pop()
         if maze[i][j] == '3':
