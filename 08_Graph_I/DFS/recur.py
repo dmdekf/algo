@@ -5,8 +5,8 @@ def DFS(v):
     visited[v] = 1
     print(v, end=' ')
 
-    for w in G[v]:
-        if not visited[w]:
+    for w in G[v]: #다른 노드 w에 대해 인접하고
+        if not visited[w]:  # 방문하지 않았으면
             DFS(w)
 
 
