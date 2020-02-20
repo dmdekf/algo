@@ -28,8 +28,6 @@ def dfs2(i, j):
                 v[nx][ny] = 1
     return 0
 
-import sys
-sys.stdin = open('1226_input.txt')
 
 dx = [0, 1, 0, -1]
 dy = [1, 0, -1, 0]
