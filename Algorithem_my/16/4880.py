@@ -9,6 +9,7 @@ def f(i, j):
         p = [f(i, (i+j)//2), f((i+j)//2+1, j)]
         return p[w[card[r1]][card[r2]]]
         return p[w[card[f(i, (i+j)//2)]][card[f((i+j)//2+1, j)]]]
+        # 값과 인덱스 값의 연동. w : 인덱스의 값으로 0또는 1(r1 == p[0], r2 == r[1])지정. 리턴할 인덱스값 반환
         # return win(r1, r2)
 
 
