@@ -6,7 +6,9 @@ def f(i, j):
         r1 = f(i, (i+j)//2)
         r2 = f((i+j)//2+1, j)
         p = [r1, r2]
+        p = [f(i, (i+j)//2), f((i+j)//2+1, j)]
         return p[w[card[r1]][card[r2]]]
+        return p[w[card[f(i, (i+j)//2)]][card[f((i+j)//2+1, j)]]]
         # return win(r1, r2)
 
 
