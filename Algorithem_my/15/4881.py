@@ -9,9 +9,10 @@ def f(n, s):
         return
     else:
         for i in range(N):
-            if v[i] != 0:
+            if v[i] == 0:
                 v[i] = 1
                 f(n+1, s+d[n][i])
+                v[i] = 0
 
 
 # def f(row, col):
