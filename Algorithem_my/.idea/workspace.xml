@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17/1224.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17/1224_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17/9640.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17/9640_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/9490_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/11/9490_ver2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/1267_algo_DFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/13/1267_algo_DFS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1198" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1582798943826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582798943826" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -275,17 +277,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/17/6485.py</url>
-          <line>21</line>
+          <line>20</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/17/6485.py</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/17/6485.py</url>
-          <line>23</line>
+          <line>22</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
