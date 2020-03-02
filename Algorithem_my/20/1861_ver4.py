@@ -19,6 +19,7 @@ def f(x, y, s, c):
 
 
 T = int(input())
+# T = 1
 dx = [0, 1, 0, -1]
 dy = [1, 0, -1, 0]
 for tc in range(1, T+1):
