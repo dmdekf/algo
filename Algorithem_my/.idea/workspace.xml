@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="" />
+    <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +32,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.6485">
+  <component name="RunManager" selected="Python.1861">
     <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -44,6 +46,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1861" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20/1861.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,41 +138,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.01" />
-      <item itemvalue="Python.6485" />
-      <item itemvalue="Python.9640" />
       <item itemvalue="Python.swea_01" />
-      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.9640" />
+      <item itemvalue="Python.6485" />
+      <item itemvalue="Python.1861" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1861" />
         <item itemvalue="Python.6485" />
         <item itemvalue="Python.9640" />
         <item itemvalue="Python.swea_01" />
         <item itemvalue="Python.01" />
-        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,38 +169,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1198" height="317" key="GridCell.Tab.0.bottom" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.0.bottom" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.0.center" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
+    <state width="1198" height="317" key="GridCell.Tab.0.center" timestamp="1583134866540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.0.left" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866540" />
+    <state width="1198" height="317" key="GridCell.Tab.0.left" timestamp="1583134866540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.0.right" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866540" />
+    <state width="1198" height="317" key="GridCell.Tab.0.right" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.1.bottom" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
+    <state width="1198" height="317" key="GridCell.Tab.1.bottom" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.1.center" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
+    <state width="1198" height="317" key="GridCell.Tab.1.center" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.1.left" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
+    <state width="1198" height="317" key="GridCell.Tab.1.left" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
-    <state width="1198" height="317" key="GridCell.Tab.1.right" timestamp="1582720988771">
+    <state width="1198" height="317" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
+    <state width="1198" height="317" key="GridCell.Tab.1.right" timestamp="1583134866541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582720988771" />
+    <state width="1198" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583134866541" />
     <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583114832882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,6 +287,81 @@
           <url>file://$PROJECT_DIR$/17/6485.py</url>
           <line>22</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/20/1861.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
