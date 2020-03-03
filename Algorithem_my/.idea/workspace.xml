@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21/1074_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/4811_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/backjoon_1074.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/backjoon_4811.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/backjoon_4811_ver2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/1861_ver2.py" beforeDir="false" afterPath="$PROJECT_DIR$/20/1861_ver2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20/1861_ver4.py" beforeDir="false" afterPath="$PROJECT_DIR$/20/1861_ver4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +40,8 @@
       <recent name="D:\Git\algo\Algorithem_my\21" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.backjoon_4811_ver2">
-    <configuration name="1861" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1861_ver2">
+    <configuration name="1861_ver2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20/1861.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20/1861_ver2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6485" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1861_ver4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17/6485.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20/1861_ver4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,19 +147,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6485" />
-      <item itemvalue="Python.1861" />
       <item itemvalue="Python.backjoon_1074" />
       <item itemvalue="Python.backjoon_4811" />
       <item itemvalue="Python.backjoon_4811_ver2" />
+      <item itemvalue="Python.1861_ver4" />
+      <item itemvalue="Python.1861_ver2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1861_ver2" />
+        <item itemvalue="Python.1861_ver4" />
         <item itemvalue="Python.backjoon_4811_ver2" />
         <item itemvalue="Python.backjoon_4811" />
         <item itemvalue="Python.backjoon_1074" />
-        <item itemvalue="Python.1861" />
-        <item itemvalue="Python.6485" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +177,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1198" height="312" key="GridCell.Tab.0.bottom" timestamp="1583206260818">
+    <state width="1198" height="312" key="GridCell.Tab.0.bottom" timestamp="1583208203868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
-    <state width="1198" height="312" key="GridCell.Tab.0.center" timestamp="1583206260818">
+    <state width="1198" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583208203868" />
+    <state width="1198" height="312" key="GridCell.Tab.0.center" timestamp="1583208203868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
-    <state width="1198" height="312" key="GridCell.Tab.0.left" timestamp="1583206260818">
+    <state width="1198" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583208203868" />
+    <state width="1198" height="312" key="GridCell.Tab.0.left" timestamp="1583208203868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
-    <state width="1198" height="312" key="GridCell.Tab.0.right" timestamp="1583206260818">
+    <state width="1198" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583208203868" />
+    <state width="1198" height="312" key="GridCell.Tab.0.right" timestamp="1583208203868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
+    <state width="1198" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583208203868" />
     <state width="1198" height="317" key="GridCell.Tab.1.bottom" timestamp="1583199870187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

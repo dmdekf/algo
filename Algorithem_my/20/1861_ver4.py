@@ -1,8 +1,8 @@
 import sys
 
-sys.stdin = open('1861_input.txt')
+# sys.stdin = open('1861_input.txt')
 
-
+sys.stdin = open('1.txt')
 def f(x, y, s, c):
     if v[d[x][y]]:
         return 1

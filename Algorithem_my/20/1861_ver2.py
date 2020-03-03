@@ -1,7 +1,7 @@
 import sys
 
-sys.stdin = open('1861_input.txt')
-
+# sys.stdin = open('1861_input.txt')
+sys.stdin = open('1.txt')
 
 def dp(i, j):
     cnt = 1
