@@ -29,7 +29,7 @@ for tc in range(1, T+1):
     cnt = float('-inf')
     for i in range(N):
         for j in range(N):
-            if not v[d[i][j]] and cnt <= N**2 - d[i][j]:
+            if not v[d[i][j]]:
                 v[d[i][j]] = f(i, j, d[i][j], 1)
                 if cnt == v[d[i][j]]:
                     if M > d[i][j]:

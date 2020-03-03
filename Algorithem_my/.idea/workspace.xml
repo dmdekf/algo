@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="" />
+    <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/21/1074_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21/4811_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21/backjoon_1074.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21/backjoon_4811.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21/backjoon_4811_ver2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/1861_ver4.py" beforeDir="false" afterPath="$PROJECT_DIR$/20/1861_ver4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,31 +35,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/21" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.1861">
-    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\algo\Algorithem_my\21" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.backjoon_4811_ver2">
     <configuration name="1861" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9640" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="backjoon_1074" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17/9640.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21/backjoon_1074.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="swea_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="backjoon_4811" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +115,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01/swea_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21/backjoon_4811.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="backjoon_4811_ver2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21/backjoon_4811_ver2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,19 +150,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01" />
-      <item itemvalue="Python.swea_01" />
-      <item itemvalue="Python.9640" />
       <item itemvalue="Python.6485" />
       <item itemvalue="Python.1861" />
+      <item itemvalue="Python.backjoon_1074" />
+      <item itemvalue="Python.backjoon_4811" />
+      <item itemvalue="Python.backjoon_4811_ver2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.backjoon_4811_ver2" />
+        <item itemvalue="Python.backjoon_4811" />
+        <item itemvalue="Python.backjoon_1074" />
         <item itemvalue="Python.1861" />
         <item itemvalue="Python.6485" />
-        <item itemvalue="Python.9640" />
-        <item itemvalue="Python.swea_01" />
-        <item itemvalue="Python.01" />
       </list>
     </recent_temporary>
   </component>
@@ -167,42 +180,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1198" height="256" key="GridCell.Tab.0.bottom" timestamp="1583140507120">
+    <state width="1198" height="312" key="GridCell.Tab.0.bottom" timestamp="1583206260818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507120" />
-    <state width="1198" height="256" key="GridCell.Tab.0.center" timestamp="1583140507119">
+    <state width="1198" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
+    <state width="1198" height="312" key="GridCell.Tab.0.center" timestamp="1583206260818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507119" />
-    <state width="1198" height="256" key="GridCell.Tab.0.left" timestamp="1583140507119">
+    <state width="1198" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
+    <state width="1198" height="312" key="GridCell.Tab.0.left" timestamp="1583206260818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507119" />
-    <state width="1198" height="256" key="GridCell.Tab.0.right" timestamp="1583140507120">
+    <state width="1198" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
+    <state width="1198" height="312" key="GridCell.Tab.0.right" timestamp="1583206260818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507120" />
-    <state width="1198" height="317" key="GridCell.Tab.1.bottom" timestamp="1583140507111">
+    <state width="1198" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583206260818" />
+    <state width="1198" height="317" key="GridCell.Tab.1.bottom" timestamp="1583199870187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507111" />
-    <state width="1198" height="317" key="GridCell.Tab.1.center" timestamp="1583140507111">
+    <state width="1198" height="317" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583199870187" />
+    <state width="1198" height="317" key="GridCell.Tab.1.center" timestamp="1583199870186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507111" />
-    <state width="1198" height="317" key="GridCell.Tab.1.left" timestamp="1583140507111">
+    <state width="1198" height="317" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583199870186" />
+    <state width="1198" height="317" key="GridCell.Tab.1.left" timestamp="1583199870186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507111" />
-    <state width="1198" height="317" key="GridCell.Tab.1.right" timestamp="1583140507111">
+    <state width="1198" height="317" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583199870186" />
+    <state width="1198" height="317" key="GridCell.Tab.1.right" timestamp="1583199870187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1198" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583140507111" />
-    <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583114832882">
+    <state width="1198" height="317" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583199870187" />
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583198137911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="444" y="319" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583114832882" />
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583198137911" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,6 +373,36 @@
           <url>file://$PROJECT_DIR$/20/1861.py</url>
           <line>23</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/21/backjoon_1074.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
