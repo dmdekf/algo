@@ -1,4 +1,34 @@
-for t in range(int(input())):
+from _collections import deque
+
+
+def node(s):
+    q.append(s)
+    v[s] = 1
+    while q:
+        f = q.popleft()
+        for i in d[f]:
+            if v[i] == 0:
+                v[i] = v[f]+1
+                if E in d[f]:
+                    return v[f]
+                q.append(i)
+
+    return 0
+
+
+T = int(input())
+for tc in range(1, T+1):
+    V, E = map(int, input().split())
+    d = [[] for _ in range(V+1)]
+    for _ in range(E):
+        i, j = map(int, input().split())
+        d[i].append(j)
+        d[j].append(i)
+    S, E = map(int, input().split())
+    q = deque()
+    v = [0 for _ in range(V+1)]
+    print(f'#{tc} {node(S)}')
+    for t in range(int(input())):
     V, E = map(int, input().split())
     d = []
     for e in range(E):
