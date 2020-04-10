@@ -5,7 +5,6 @@ sys.stdin = open('input_5110.txt')
 
 class Node():
     def __init__(self, data):
-
         self.data = data
         self.next = None
 
@@ -17,7 +16,6 @@ class LinkedList():
     def __init__(self, head=None):
         self.head = head
         self.tail = None
-
         self.size = 0
 
     def append(self, data):
@@ -27,7 +25,6 @@ class LinkedList():
                 cur = cur.next
             cur.next = data
             data.head = cur
-
         else:
             self.head = data
             self.tail = data
@@ -51,19 +48,32 @@ class LinkedList():
     def datainsert(self, data):
         cur = self.head
         if self.head:
-            while cur.data < data[0].data:
+            if self.head.data > data[0].data:
+                temp = cur
+                self.head = data[0]
+                cur = data[0]
+                for i in range(1, len(data)):
+                    cur.next = data[i]
+                    data[i].head = cur
+                    cur = data[i]
+                if temp:
+                    cur.next = temp
+                    temp.head = data[i]
+            else:
+                while cur.next and cur.next.data <= data[0].data:
+                    cur = cur.next
+                temp = cur.next
+                cur.next = data[0]
+                data[0].head = cur
                 cur = cur.next
-            print(cur.data)
-            temp = cur.next
-            cur.next = data[0].data
-            data[0].head = cur.data
+                for i in range(1, len(data)):
+                    cur.next = data[i]
+                    data[i].head = cur
+                    cur = data[i]
+                if temp:
+                    cur.next = temp
+                    temp.head = data[i]
 
-            for i in range(1, len(data)):
-                data[i-1].tail = cur.data
-                cur = data[i-1]
-            data[len(data)-1].tail = temp.data
-            if temp:
-                temp.head = data[i]
         self.size += len(data)
 
     def print(self):
@@ -74,22 +84,35 @@ class LinkedList():
             cur = cur.next
         return print(result)
 
+    def all(self):
+        cur = self.head
+        result = []
+        while cur:
+            result.append(cur.data)
+            cur = cur.next
+        return result
+
+    def alltail(self):
+        cur = self.tail
+        result = []
+        while cur:
+            result.append(cur.data)
+            cur = cur.head
+        return result
+
 
 T = int(input())
-T = 1
 for tc in range(1, T+1):
     N, M = map(int, input().split())
     d = [list(map(int, input().split())) for _ in range(M)]
     L = LinkedList()
-
     for i in range(N):
         for j in range(N):
             d[i][j] = Node(d[i][j])
-            # print(d[i][j].data)
     for i in range(N):
         L.append(d[0][i])
-    L.print()
-    L.datainsert(d[1])
-    L.print()
-
-    # print(f'#{tc} {d[L]}')
+    for i in range(1, M):
+        L.datainsert(d[i])
+    print(f'#{tc} ', end='')
+    print(*L.all()[::-1][:10])
+    # print(*L.alltail())
