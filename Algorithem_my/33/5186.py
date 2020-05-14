@@ -6,6 +6,8 @@ sys.stdin = open('input_5186.txt')
 def f(num):
     result = []
     while num:
+        if len(result) > 12:
+            return 'overflow'
         temp = num*2
         print(temp)
         if temp - 1 >= 0:
@@ -14,8 +16,6 @@ def f(num):
         else:
             result.append(0)
             num = num*2
-        if len(result) > 12:
-            return 'overflow'
 
     return ''.join(list(map(str, result)))
 
