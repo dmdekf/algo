@@ -1,7 +1,3 @@
-# import sys
-
-# sys.stdin = open('input_5207.txt')
-
 # 퀸 문제
 
 
@@ -27,8 +23,7 @@ def backtrack(idx):
             dia_1[idx+i] = 0
             dia_2[N+i-idx-1] = 0
 
-        # T = int(input())
-        # for tc in range(1, T+1):
+
 N = 4
 # 각 행에는 1개의 퀸만 올 수 있음
 # 열의 사용여부를 판단하는 리스트
@@ -41,4 +36,4 @@ dia_cnt = N*2 - 1
 dia_1 = [0]*dia_cnt
 dia_2 = [0]*dia_cnt
 cnt = 0
-print(f'#{tc} {cnt}')
+print(cnt)
