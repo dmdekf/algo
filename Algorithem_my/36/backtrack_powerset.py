@@ -11,10 +11,16 @@ def backtrack(selected, idx, input):
         print()
         return
     else:
-        n_candidate = make_candidate(candidates)
-        for i in range(n_candidate):
-            selected(idx) = candidates[i]
-            backtrack(selected, idx+1, input)
+        # n_candidate = make_candidate(candidates)
+        # for i in range(n_candidate):
+        #     selected(idx) = candidates[i]
+        #     backtrack(selected, idx+1, input)
+
+        # make_candidate없이 코딩 할 경우
+        selected[idx] = 1
+        backtrack(selected, idx+1, input)
+        selected[idx] = 0
+        backtrack(selected, idx+1, input)
 
 
 def make_candidate(cadidates):
