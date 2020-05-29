@@ -1,4 +1,4 @@
-import heapq
+
 import sys
 
 sys.stdin = open('input_1248.txt')
@@ -53,7 +53,7 @@ for tc in range(1, T+1):
             if visited[p2]:
                 p = p2
                 break
-            visited[tree[v2][2]] = 1
+            visited[p2] = 1
             v2 = p2
     # print(p)
     preorder(p)
