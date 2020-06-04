@@ -20,10 +20,10 @@ def bfs(v):
         v = q.popleft()
         for w in G[v]:
             if not visited[w]:
-                q.append(w)
                 visited[w] = visited[v] + 1
                 if visited[w] == 2 or visited[w] == 3:
                     cnt += 1
+                    q.append(w)
     return cnt
 
 

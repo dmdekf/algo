@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae53ab47-dd2c-4906-97d3-48ab5e22d464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0529_month/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0529_month/2input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0529_month/2output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0529_month/Algo2_서울_1_나윤지.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0529_month/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0529_month/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/39/1248.py" beforeDir="false" afterPath="$PROJECT_DIR$/39/1248.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38/1247.py" beforeDir="false" afterPath="$PROJECT_DIR$/38/1247.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40/5521.py" beforeDir="false" afterPath="$PROJECT_DIR$/40/5521.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
       <recent name="D:\Git\algo\Algorithem_my\21" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Algo2_서울_1_나윤지">
+  <component name="RunManager" selected="Python.1249">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,27 +55,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0529_month/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0529_month" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Git\algo\Algorithem_my\0529_month\1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1249" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/40" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/40/1249.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Algo2_서울_1_나윤지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,15 +150,15 @@
     <list>
       <item itemvalue="Python.1247" />
       <item itemvalue="Python.1248" />
-      <item itemvalue="Python.1248 (1)" />
       <item itemvalue="Python.1 (1)" />
       <item itemvalue="Python.Algo2_서울_1_나윤지" />
+      <item itemvalue="Python.1249" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1249" />
         <item itemvalue="Python.Algo2_서울_1_나윤지" />
         <item itemvalue="Python.1 (1)" />
-        <item itemvalue="Python.1248 (1)" />
         <item itemvalue="Python.1248" />
         <item itemvalue="Python.1247" />
       </list>
@@ -183,42 +178,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1260" height="437" key="GridCell.Tab.0.bottom" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.0.bottom" timestamp="1591249739125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.0.center" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591249739125" />
+    <state width="1260" height="437" key="GridCell.Tab.0.center" timestamp="1591249739122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.0.left" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591249739122" />
+    <state width="1260" height="437" key="GridCell.Tab.0.left" timestamp="1591249739121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.0.right" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591249739121" />
+    <state width="1260" height="437" key="GridCell.Tab.0.right" timestamp="1591249739124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.1.bottom" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591249739124" />
+    <state width="1260" height="437" key="GridCell.Tab.1.bottom" timestamp="1591249746391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.1.center" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591249746391" />
+    <state width="1260" height="437" key="GridCell.Tab.1.center" timestamp="1591249746390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.1.left" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591249746390" />
+    <state width="1260" height="437" key="GridCell.Tab.1.left" timestamp="1591249746390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state width="1260" height="437" key="GridCell.Tab.1.right" timestamp="1590738096000">
+    <state width="1260" height="437" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591249746390" />
+    <state width="1260" height="437" key="GridCell.Tab.1.right" timestamp="1591249746391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1260" height="437" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590738096000" />
-    <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1583379031623">
+    <state width="1260" height="437" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591249746391" />
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1591249696428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="444" y="319" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583379031623" />
+    <state x="444" y="319" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591249696428" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,18 +469,63 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/0529_month/Algo2_서울_1_나윤지.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/0529_month/Algo2_서울_1_나윤지.py</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/0529_month/Algo2_서울_1_나윤지.py</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/40/1249.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
